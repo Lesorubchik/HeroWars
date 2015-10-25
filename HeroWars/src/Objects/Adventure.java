@@ -85,11 +85,9 @@ public class Adventure implements Runnable, PropertyChangeListener {
                                "1","2",
                                "1","2");
         support.firePropertyChange("currentBattleStats",newStep , this.currentBattleStats);
-
-      //  return this.currentBattleStats;
+        
     }
 
-   // public int damageDeal(Hero hero){return 1 + (int)(Math.random() * ((hero.getStrenght() - 1) + 1));}
 
     @Override
     public void run() {
