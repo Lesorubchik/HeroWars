@@ -56,14 +56,6 @@ public class GameWindow extends JFrame {
         dbHeroInfo.getHero().heroStartTimer();
         this.addWindowListener(new WindowCloseListner(dbHeroInfo));
 
-        //inventoryModel.addItem(0,0,new Item("Chest","Uncommon",10,2,3,4,5));
-       // inventoryModel.addItem(0,1,new Item("Head","Common",1,22,33,43,53));
-       // inventoryModel.addItem(0,2,new Item("Ring","Common",1,2,6,8,5));
-        //inventoryModel.addItem(0,2,new Item("0001400002000600080005"));
-       // inventoryModel.addItem(2,1,new Item("Head","Uncommon",1,0,0,6,7));
-       // characterItemsPanel.addItem(0,1,new Item("Chest","Uncommon",10,2,3,4,5),dbHeroInfo.getHero());
-      //  dbHeroInfo.getHero().addExp(320);
-
         super.add(helloLabel, new GridBagConstraints(0, 0, 4, 1, 1, 1, GridBagConstraints.NORTH, GridBagConstraints.CENTER, new Insets(1, 2, 3, 4), 0, 0));
         super.add(statsPanel, new GridBagConstraints(0, 1, 2, 7, 0.0, 0.9, GridBagConstraints.NORTH, GridBagConstraints.BOTH, new Insets(1, 2, 3, 4), 0, 0));
         super.add(actionsButton, new GridBagConstraints(2, 1, 1, 1, 1, 0, GridBagConstraints.NORTH, GridBagConstraints.CENTER, new Insets(1, 2, 3, 4), 0, 0));

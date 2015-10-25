@@ -85,7 +85,7 @@ public class Adventure implements Runnable, PropertyChangeListener {
                                "1","2",
                                "1","2");
         support.firePropertyChange("currentBattleStats",newStep , this.currentBattleStats);
-        
+
     }
 
 
